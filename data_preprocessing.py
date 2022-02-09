@@ -3,11 +3,11 @@ import csv
   
 # open input CSV file as source
 
-with open("final.csv", "r") as source:
+with open("final_1.csv", "r") as source:
     reader = csv.reader(source)
 
 # open output CSV file as result    
-    with open("final_1.csv", "w") as result:
+    with open("final_2.csv", "w") as result:
         writer = csv.writer(result)
         for row in reader:
             if row!='':
